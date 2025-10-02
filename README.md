@@ -68,7 +68,7 @@ Sign up to be a mentor at [ibm.biz/qamp2025-mentor](https://ibm.biz/qamp2025-men
 ## Frequently Asked Questions
 
 #### Q: Who is eligible to apply?
-A: Participating in QAMP as a mentee is exclusive to Qiskit advocates. You need to become a Qiskit advocates to apply for the program. Read [here](https://www.ibm.com/quantum/community#advocates) for more information about how to become a Qiskit advocate. 
+A: Participating in QAMP as a mentee is exclusive to Qiskit advocates. You need to become a Qiskit advocate to apply for the program. Read [here](https://www.ibm.com/quantum/community#advocates) for more information about how to become a Qiskit advocate. 
 
 Mentors do not need to be Qiskit advocates.
 
