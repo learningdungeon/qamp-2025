@@ -1,155 +1,101 @@
-# QAMP-2025: Quantum for All  
-**Meeting Minutes / Mentor Notes**
+QAMP-2025: Quantum for All
+Meeting Minutes / Mentor Notes (Revised: October 14, 2025)
 
----
+Date: October 9, 2025
+Time: 11:00 AM
+Platform: Discord
+Reference: GitHub Issue #18
+Mentor: Noor (Lead/Mentor)
+Attendees: Noor (Lead/Mentor), Nathane, Miguel
 
-**Date:** October 9, 2025  
-**Time:** 11:00 AM  
-**Platform:** Discord  
-**Reference:** GitHub Issue #18  
-**Mentor:** Noor (Lead/Mentor)  
-**Attendees:** Noor (Lead/Mentor), Nathane, Miguel  
+1. Quick Greetings and Shared Vision
+The meeting commenced with a brief round of greetings and updates.
+The Mentor reaffirmed the project’s mission of “Democratizing Quantum Knowledge” — creating an accessible and engaging curriculum integrated into standard STEM subjects.
 
----
+Guiding Principles:
+Strength: Translating complex quantum concepts into practical, understandable content.
 
-## 1. Quick Greetings and Shared Vision
-The meeting commenced with a brief round of greetings and updates.  
-The Mentor reaffirmed the project’s mission of **“Democratizing Quantum Knowledge”** — creating an accessible and engaging curriculum integrated into standard STEM subjects.  
+Resilience: Maintaining consistent progress through adaptive approaches.
 
-### Guiding Principles:
-- **Strength:** Translating complex quantum concepts into practical, understandable content.  
-- **Resilience:** Maintaining consistent progress through adaptive approaches.  
-- **Efficiency:** Keeping a direct, solution-oriented methodology.
+Efficiency: Keeping a direct, solution-oriented methodology, strictly adhering to the 5-hour per week commitment.
 
-All mentees expressed understanding and commitment to this shared vision, emphasizing the development of **practical, classroom-ready resources** for teachers.
+All attendees expressed understanding and commitment to this shared vision, emphasizing the development of practical, classroom-ready resources for teachers.
 
----
+2. Review of Progress on Project Tasks
+The team reviewed the initial curriculum structure prepared by Nathane, confirming that it provides a solid foundation aligned with the objectives in GitHub Issue #18.
 
-## 2. Review of Progress on Project Tasks
-- The team reviewed the initial curriculum structure prepared by **Nathane**, confirming that it provides a **solid foundation** aligned with the objectives in *GitHub Issue #18*.  
-- The framework’s goal is to **support teachers** in delivering challenging quantum concepts through:
-  - Sample Worksheets  
-  - Jupyter Notebooks  
-  - Structured Lesson Plans  
-  - Assessment Tools  
+The framework’s goal is to support teachers in delivering challenging quantum concepts.
 
-This phase validated that the curriculum remains both technically grounded and pedagogically accessible.
+3. Curriculum Strategy and Prototype Assignments (FINALIZED SCOPE)
+The scope has been formally reduced to focus on middle and high school only to ensure project completion and manage current resource constraints.
 
----
+Prototype	Grade Band	Pedagogy	Integrated Subjects (Reduced)	Action Owner
+Prototype 1	    6–8	Project-Based	Mathematics, Science, ICT, English	Nathane and Noor
+Prototype 2   	HS+ (9+)	Advanced Project-Based	Physics, Computers (CS) ONLY	Miguel
+Prototype 3   	HS+ (9+)	Advance Project-Based	English, Math	- Noor
 
-## 3. Curriculum Strategy and Prototype Assignments
-### Development Plan by Grade Bands (Revised)
-| Prototype | Grade Band | Pedagogy | Integrated Subjects | Action Owner |
-|------------|-------------|-----------|----------------------|---------------|
-| **Prototype 1** | K–2 | Story & Role-Play (Activity-Based Learning) | Science, English, Math | Noor |
-| **Prototype 2** | 3–5 | Story & Project-Based | Science, Math, Computers, English | Nathane |
-| **Prototype 3** | 6–8 | Project-Based | Mathematics, Science, ICT, English | Nathane |
-| **Prototype 4** | HS+ | Advanced Project-Based | Physics, Chemistry, Math, Computers, English | Miguel |
+AER Trainer Development: Miguel.
 
-*AER Trainer Development:* Pending final assignment.  
+Pedagogical Challenges:
 
-### Pedagogical Challenges:
-- Introducing **quantum states and waves** at appropriate grade levels.  
-- Differentiating between **classical and quantum science** for younger learners.  
-- Using an **integrated approach** to help teachers bridge conceptual gaps across disciplines.
+Using an integrated approach to help teachers bridge conceptual gaps across disciplines.
 
-### Instructional Workflow & Methodology:
-- Lessons will follow a **cross-disciplinary** structure.  
-- Each lesson may start with a **subject anchor** (e.g., an English comprehension passage introducing a quantum idea).  
-- The content will expand naturally to include Math, Science, and ICT connections.
+4. Pedagogical Framework & Standards Alignment (NON-NEGOTIABLE LIMIT)
+To ensure the project's completion within the 5-hour per week time constraint, the decision on standards alignment has been finalized.
 
-**Example:**  
-A passage titled *“The Nature of Light”* links to:  
-- Mathematics → Probability concepts  
-- Science → Particle-wave duality  
-- ICT → Qiskit simulation exercises  
+Framework	Purpose	Notes
+UDL (Universal Design for Learning)	Ensures inclusivity for diverse learners	Replaces VAK; addresses accessibility and differentiation.
+5E Model (Engage, Explore, Explain, Elaborate, Evaluate)	Provides familiar, effective flow for teachers	Supports cross-subject integration.
 
----
+Standards Alignment:
+The QAMP project will pursue agree. The final guidelines will feature a Flexible Standards Boundary, simply listing compatible standards that teachers can choose to adapt.
 
-## 4. Pedagogical Framework & Standards Alignment
-| Framework | Purpose | Notes |
-|------------|----------|-------|
-| **UDL (Universal Design for Learning)** | Ensures inclusivity for diverse learners | Replaces VAK to address accessibility and differentiation. |
-| **5E Model (Engage, Explore, Explain, Elaborate, Evaluate)** | Provides familiar, effective flow for teachers | Supports cross-subject integration and Bloom’s alignment. |
-| **Bloom’s Taxonomy** | Cognitive skill development | Mentor to ensure all prototypes include multi-level learning outcomes. |
-| **CSTA / NGSS / CCSS** | Education standard references | Included for global consistency and easier alignment for school administrators. |
+5. Support, Resources, and Documentation
+a. Glossary Maintenance
+Each prototype will maintain its own detailed glossary.
 
-**Global Grade Equivalence:**  
-*Primaria (Elementary) → Secundaria (Middle) → Bachiller Superior (High School / AER)* — contributed by Miguel.
+b. Core Resource
+IBM Qiskit Textbook (v2) confirmed as the primary foundational material.
 
----
+Curriculum learning pathway now defined as: Qiskit Textbook (v2) →K6 Algorithms → HS/AER.
 
-## 5. Support, Resources, and Documentation
-The team agreed on a professional documentation system to ensure reproducibility and academic quality.
+c. Technical Specifications
+All “Notebooks” refer to Python-based Qiskit Jupyter notebooks.
+Must be compatible with Google Colab and Jupyter environments.
 
-### a. Glossary Maintenance
-- Each prototype must maintain its own **detailed glossary**, defining:  
-  - All **key terms** (e.g., qubit, entanglement)  
-  - All **symbols and notation** used  
-  - All **Qiskit commands** and functions (e.g., `import`, `backend`, `sampler`)  
-- Purpose: To ensure clarity for teachers, future developers, and curriculum reviewers.
+d. Research & Workflow Practices
+All team members will record workflow steps, time spent, and progress in the shared Excel Matrix File.
 
-### b. Core Resource
-- **IBM Qiskit Textbook (v2)** confirmed as the **primary foundational material**.  
-- Curriculum learning pathway now defined as:  
-  **Qiskit Textbook (v2) → K–8 Algorithms → HS/AER.**
+6. Decisions & Agreements (FORMALLY MODIFIED)
+Topic	Decision / Update	Rationale
+Grade Bands	6−8,HS+ (Final Scope)	Limits scope to achievable level; K2−K5 removed due since the mentee offered this band has withdrawn for personal commitments.
+Frameworks	UDL + 5E with Flexible Standards Boundary	Eliminates workload.
+Prototype 2 (Miguel)	Content creation limited to Physics and Computer Science only.	Reduces workload to fit the 5-hour per week commitment.
+Learning Pathway	Qiskit Textbook (v2) →K6 Algorithms → HS/AER	Streamlines the progression.
 
-### c. Technical Specifications
-- All “Notebooks” refer to **Python-based Qiskit Jupyter notebooks**.  
-- Must be compatible with **Google Colab** and **Jupyter environments**.  
-- Designed for lightweight execution even on school-level devices.
+7. Action Items
+Task	Owner	Deadline	Status
+Develop and share initial rough sketches/frameworks for assigned curriculum prototypes	
+All Team Members	Oct 14, 2025	Delayed / Scope Re-evaluation Pending
+Proceed with content creation based on REDUCED SCOPE limits.	All Team Members	ASAP	NEW
+P2 (Miguel): Complete AER Trainer workbook/guidelines limited to CS/Physics.	Miguel	
+Review and align all prototypes with Bloom’s Taxonomy + UDL + 5E	Noor	D	
 
-### d. Research & Workflow Practices
-- All team members will record:  
-  - Workflow steps  
-  - Time spent  
-  - Task completion progress  
-  in the shared **Excel Matrix File** (project tracker).  
-- Members will also maintain **personal checklists** for granular tracking and research documentation.
+8. Reflection (Mentor’s Note)
+The mentor's focus remains on ensuring pedagogical quality, Bloom’s alignment, and cognitive accessibility at every grade level. The final scope reduction is a mandatory step to ensure the project is delivered with high quality and respects the time constraints of the team. It is further mandated that all work must strictly adhere to the 5-hour per week commitment. The QAMP project is transitioning smoothly from conceptual design to curriculum implementation.
 
----
+9. Next Steps
+Preparatory Check-In: October 14, 2025 (To be conducted privately to confirm adherence to the new scope.)
 
-## 6. Decisions & Agreements
-| Topic | Decision / Update | Rationale |
-|--------|--------------------|-----------|
-| Grade Bands | K–2, 3–5, 6–8, HS+ | Matches international school systems; clean transition to AER. |
-| Frameworks | UDL + 5E | Replaces VAK for accessibility and teacher familiarity. |
-| Standards | Added CSTA/NGSS/CCSS references | Supports administrative adoption. |
-| Learning Pathway | Qiskit Textbook (v2) → K–8 Algorithms → HS/AER | Streamlines the progression from early learners to advanced quantum research. |
-| Global Mapping | Added Spanish educational levels | Ensures cultural and global inclusivity. |
+QMAP 2025 Official Launch: October 15, 2025.
 
----
+File Maintained By: Noor (Lead Mentor, QAMP-2025)
+Repository: [QAMP-2025 / Quantum for All]
+Document Type: Mentor Log / Meeting Minutes (Full Record)
 
-## 7. Action Items
-| Task | Owner | Deadline | Status |
-|------|--------|-----------|--------|
-| Develop and share initial rough sketches/frameworks for assigned curriculum prototypes | All Team Members | Oct 14, 2025 | In Progress |
-| Submit detailed curriculum prototypes (with sample worksheets and notebooks) | All Team Members | To be decided | Pending |
-| Review and align all prototypes with Bloom’s Taxonomy + UDL + 5E | Noor | To be decided | Pending |
-| Finalize pilot implementation plan and phases | All Team Members | To be decided | Pending |
-| Maintain glossary at prototype level | All Team Members | Continuous | Active |
-| Record workflow, time, and progress in Excel Matrix | All Team Members | Continuous | Active |
 
----
 
-## 8. Reflection (Mentor’s Note)
-> This meeting demonstrated excellent collaboration and professional maturity among mentees.  
-> The shift to **UDL + 5E** made the framework globally accessible while retaining academic depth.  
-> Miguel’s contribution brought inclusivity across education systems, and Nathane’s adjustments ensured structural coherence.  
-> As the mentor, my focus remains on ensuring **pedagogical quality**, Bloom’s alignment, and cognitive accessibility at every grade level.  
-> The QAMP project is transitioning smoothly from conceptual design to curriculum implementation — a key milestone.
 
----
 
-## 9. Next Steps
-- **Preparatory Check-In:** October 13, 2025  
-  - Review initial framework sketches.  
-  - Discuss weekly time commitments.  
-  - Address early-stage development challenges.  
-- **QMAP 2025 Official Launch:** October 15, 2025.
 
----
 
-**File Maintained By:** Noor (Lead Mentor, QAMP-2025)  
-**Repository:** [QAMP-2025 / Quantum for All]  
-**Document Type:** Mentor Log / Meeting Minutes (Full Record)
