@@ -1,0 +1,12 @@
+mkdir curriculum
+mkdir -p curriculum/tier1_intro curriculum/tier2_intermediate curriculum/tier3_advanced/tier4_qencryption
+
+mkdir -p labs/english labs/translations
+
+mkdir -p assessments/quizzes assessments/coding_tasks assessments/mini_projects
+
+mkdir -p translations/templates translations/urdu translations/malay translations/spanish translations
+
+mkdir -p docs/teaching_guides docs/contributor_notes docs/technical_docs
+
+mkdir -p blog/team_journey
