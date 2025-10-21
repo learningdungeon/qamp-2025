@@ -1,5 +1,7 @@
-<<<<<<< HEAD
 # Curriculum Folder
-=======
+Contains tiered curriculum content:
+- tier1_intro/
+- tier2_intermediate/
+- tier3_advanced/
+- tier4_quantum_encryption/
 
->>>>>>> 0d5dcb1bfce47482e5df7e57271b1e505be76c79
