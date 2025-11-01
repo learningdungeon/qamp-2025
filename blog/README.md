@@ -18,4 +18,4 @@ This is where we track the team's evolution, including the development of the 4-
 > Use a date-first format to ensure a chronological timeline: YYYY-MM-DD-Topic-Slug.md
 >
 >**Content Focus:**
->Focus on documenting decisions (like the rationale for using quantum cryptography as a niche), problem-solving efforts (like the Git cleanup), and the growth of our mentees.
+>Focus on documenting decisions (like the rationale for using quantum cryptography as a niche), problem-solving efforts (like the Git cleanup), and the growth of our skills.
