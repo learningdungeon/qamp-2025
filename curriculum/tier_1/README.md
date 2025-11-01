@@ -4,7 +4,7 @@ This folder contains all lesson plans and materials specifically designed for Ti
 
 **🎯 Guiding Philosophy:**
 
-The content here must strictly adhere to the principle: Teach the Concept, Not the Complex Math.
+The content here adhere to the principle: Teach the Concept, Not the Complex Math.
 
 **Goal:**
 >Build strong quantum intuition using everyday examples before introducing formal notation or complex algebra.
