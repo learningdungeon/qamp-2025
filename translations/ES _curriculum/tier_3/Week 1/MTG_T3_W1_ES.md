@@ -1,25 +1,31 @@
-
 ## **Resumen y Puente: De Vectores Simples a Notación de Dirac**
 
-Recuerda que el estado de un solo qubit se introdujo usando notación de vector simple, muy similar a lo que se ve en álgebra lineal de preparatoria.
+Recuerda que el estado de un solo qubit se introdujo usando notación de vector simple, muy similar a lo que se ve en álgebra lineal básica.
 
-En computación cuántica, el estado de un solo qubit, a menudo denotado como $\psi$, se representa como un vector columna de dos componentes (estado base computacional):
+En computación cuántica, el estado de un solo qubit, a menudo denotado como $|\psi\rangle$, se representa como un vector columna de dos componentes (estado base computacional):
 
 $$
-\psi = \begin{pmatrix} a \\ b \end{pmatrix} = a \begin{pmatrix} 1 \\ 0 \end{pmatrix} + b \begin{pmatrix} 0 \\ 1 \end{pmatrix} = a|0\rangle + b|1\rangle
+|\psi\rangle =
+\begin{pmatrix} a \\ b \end{pmatrix}
+=
+a \begin{pmatrix} 1 \\ 0 \end{pmatrix}
++
+b \begin{pmatrix} 0 \\ 1 \end{pmatrix}
+=
+a|0\rangle + b|1\rangle
 $$
 
-Aquí, $a$ y $b$ son números complejos que representan las amplitudes de probabilidad de encontrar el qubit en el:
-- estado base $|0\rangle$ (correspondiente a $a$)
-- o el estado base $|1\rangle$ (correspondiente a $b$)
+Aquí, $a$ y $b$ son números complejos que representan las amplitudes de probabilidad de encontrar el qubit en:
+- el estado base $|0\rangle$
+- o el estado base $|1\rangle$
 
-La regla fundamental de probabilidad asegura que este es un estado cuántico válido y requiere que la suma de los cuadrados de las magnitudes absolutas de las amplitudes sea igual a uno:
+La regla fundamental de probabilidad asegura que este es un estado cuántico válido y requiere que:
 
 $$
 |a|^2 + |b|^2 = 1
 $$
 
-Nota: $|a|^2 = a \times a^*$, donde $a^*$ es el conjugado complejo de $a$.
+Nota: $|a|^2 = a\,a^*$, donde $a^*$ es el conjugado complejo de $a$.
 
 ---
 
@@ -28,10 +34,14 @@ Nota: $|a|^2 = a \times a^*$, donde $a^*$ es el conjugado complejo de $a$.
 Para dos qubits:
 
 $$
-\phi = \begin{pmatrix} a \\ b \\ c \\ d \end{pmatrix}
+|\phi\rangle =
+\begin{pmatrix}
+a \\ b \\ c \\ d
+\end{pmatrix}
 $$
 
-Donde $a$, $b$, $c$, $d$ son números complejos que representan las amplitudes de probabilidad de los estados $|00\rangle$, $|01\rangle$, $|10\rangle$, $|11\rangle$ respectivamente.
+donde $a$, $b$, $c$, $d$ son las amplitudes de probabilidad asociadas a los estados
+$|00\rangle$, $|01\rangle$, $|10\rangle$ y $|11\rangle$, respectivamente.
 
 La condición de normalización es:
 
@@ -43,161 +53,176 @@ $$
 
 ## **Notación de Dirac**
 
-La notación de Dirac, o notación Bra-Ket, es el lenguaje estándar en mecánica cuántica para representar estados y operaciones en el espacio de Hilbert.
+La notación de Dirac, o notación Bra–Ket, es el lenguaje estándar en mecánica cuántica para describir estados y operaciones en espacios de Hilbert.
 
-El producto interno (o producto punto) de dos vectores se representa como:
+El producto interno entre dos estados se escribe como:
 
 $$
-\langle \text{bra} | \text{ket} \rangle
+\langle \phi | \psi \rangle
 $$
 
 ---
 
 ### **Punto de Control**
-¿Cuáles son las combinaciones posibles de un sistema de 4 qubits con $|0\rangle$ y $|1\rangle$ como estados base computacionales?
+¿Cuáles son las combinaciones posibles de un sistema de 4 qubits usando $|0\rangle$ y $|1\rangle$ como estados base computacionales?
 
 ---
 
 ## **Producto Tensorial en Sistemas de Múltiples Qubits**
 
-Por ejemplo:
+Por ejemplo, usando la base ordenada
+$\{|00\rangle, |01\rangle, |10\rangle, |11\rangle\}$:
 
 $$
-|1\rangle \otimes |0\rangle = \begin{pmatrix} 0 \\ 1 \end{pmatrix} \otimes \begin{pmatrix} 1 \\ 0 \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \\ 1 \\ 0 \end{pmatrix}
+|1\rangle \otimes |0\rangle =
+\begin{pmatrix} 0 \\ 1 \end{pmatrix}
+\otimes
+\begin{pmatrix} 1 \\ 0 \end{pmatrix}
+=
+\begin{pmatrix}
+0 \\ 0 \\ 1 \\ 0
+\end{pmatrix}
 $$
 
-Así, en un sistema de 2 qubits tenemos un vector columna de 4 dimensiones. El número de estados base crece como $2^N$, donde $N$ es el número de qubits.
+Así, un sistema de $N$ qubits vive en un espacio vectorial de dimensión $2^N$.
 
 ---
 
 ### **Punto de Control**
-Calcula $|0\rangle \otimes |1\rangle$ y escríbelo como vector columna. ¿Cuál es la dimensión del espacio de estados para 3 qubits?
+Calcula $|0\rangle \otimes |1\rangle$ y escríbelo como vector columna.  
+¿Cuál es la dimensión del espacio de estados para 3 qubits?
 
 ---
 
 ## **El Vector Ket: $|\Psi\rangle$**
 
-Para un sistema de $n$ estados:
+Para un sistema con $n$ estados base:
 
 $$
-{|\Psi\rangle = \begin{pmatrix} a_1 \\ \vdots \\ a_n \end{pmatrix}}
-$$
-
-o
-
-$$
-|\Psi\rangle = a_1 |\psi_1\rangle + a_2 |\psi_2\rangle + \ldots + a_n |\psi_n\rangle = \sum_{n} a_n |\psi_n\rangle
+|\Psi\rangle =
+\begin{pmatrix}
+a_1 \\ \vdots \\ a_n
+\end{pmatrix}
+=
+\sum_{k=1}^n a_k |\psi_k\rangle
 $$
 
 Por ejemplo, para dos qubits:
 
 $$
-|\Phi\rangle = a|00\rangle + b|01\rangle + c|10\rangle + d|11\rangle
+|\Phi\rangle =
+a|00\rangle + b|01\rangle + c|10\rangle + d|11\rangle
 $$
 
 ---
 
 ## **El Vector Bra: $\langle\Psi|$**
 
-La notación bra es el conjugado transpuesto del ket:
+El bra asociado es el conjugado transpuesto del ket:
 
 $$
-\langle\Psi| = (a_1^*, \ldots, a_n^*)
-$$
-
-o
-
-$$
-\langle\Psi| = a_1^* \langle\psi_1| + a_2^* \langle\psi_2| + \ldots + a_n^* \langle\psi_n| = \sum_{n} a_n^* \langle\psi_n|
+\langle\Psi| =
+(a_1^*, \ldots, a_n^*)
+=
+\sum_{k=1}^n a_k^* \langle\psi_k|
 $$
 
 ---
 
 ### **Punto de Control**
-Para un vector $|P\rangle = \begin{pmatrix} 2i \\ 5 \\ 7+2i \end{pmatrix}$, determina $\langle P|$.
+Para el vector
+$$
+|P\rangle =
+\begin{pmatrix}
+2i \\ 5 \\ 7 + 2i
+\end{pmatrix},
+$$
+determina $\langle P|$.
 
 ---
 
 ## **Producto Interno: $\langle\Psi|\Psi\rangle$**
 
-El producto interno se calcula como:
+Dados dos estados
 
 $$
-\langle\Phi|\Psi\rangle = \sum_{k=1}^n b_k^* a_k
+|\Phi\rangle = \sum_k \phi_k |k\rangle,
+\qquad
+|\Psi\rangle = \sum_k \psi_k |k\rangle,
+$$
+
+su producto interno es:
+
+$$
+\langle\Phi|\Psi\rangle =
+\sum_{k=1}^n \phi_k^* \psi_k
 $$
 
 ---
 
 ### **Punto de Control**
-Para $|P\rangle = \begin{pmatrix} 2i \\ 5 \\ 7+2i \end{pmatrix}$, determina $\langle P|P\rangle$. ¿El resultado es igual a 1 (normalizado)?  
-Luego, determina $\langle 1|0\rangle$, ¿qué significa ese resultado?
+Para el vector $|P\rangle$, calcula $\langle P|P\rangle$.  
+¿Está normalizado?  
+Luego, evalúa $\langle 1|0\rangle$ y explica su significado físico.
 
 ---
 
 ## **Regla de Born**
 
-La probabilidad de medir un estado es el cuadrado absoluto de la amplitud:
+La probabilidad de medir un estado $|\phi\rangle$ cuando el sistema está en $|\psi\rangle$ es:
 
 $$
 P = |\langle \phi | \psi \rangle|^2
 $$
 
-Por ejemplo, para un qubit:
+---
 
-$$
-|\psi\rangle = a|0\rangle + b|1\rangle
-$$
-
-La condición de normalización es:
-
-$$
-|a|^2 + |b|^2 = 1
-$$
+## **Normalización de Estados**
 
 Para un estado no normalizado:
 
 $$
-|\gamma\rangle = \begin{pmatrix} c_1 \\ \vdots \\ c_n \end{pmatrix}
+|\gamma\rangle =
+\begin{pmatrix}
+c_1 \\ \vdots \\ c_n
+\end{pmatrix},
 $$
 
-La normalización es:
+el estado normalizado es:
 
 $$
-|\gamma\rangle_{\text{normalizado}} = \frac{1}{\sqrt{\sum_n |c_n|^2}} \begin{pmatrix} c_1 \\ \vdots \\ c_n \end{pmatrix}
+|\gamma\rangle_{\text{norm}} =
+\frac{1}{\sqrt{\sum_{k=1}^n |c_k|^2}}
+\begin{pmatrix}
+c_1 \\ \vdots \\ c_n
+\end{pmatrix}
 $$
-
----
-
-### **Punto de Control**
-Supón que tienes un estado de dos qubits no normalizado $|\gamma\rangle = \begin{pmatrix} 2 \\ i \\ 0 \\ 1 \end{pmatrix}$.  
-Encuentra el estado $|\gamma\rangle$ normalizado.
 
 ---
 
 ## **Producto Externo**
 
-El producto externo de dos vectores es:
+El producto externo se define como:
 
 $$
-|\psi\rangle\langle\phi| = 
+|\psi\rangle\langle\phi| =
 \begin{pmatrix}
 a_1 \\ \vdots \\ a_n
 \end{pmatrix}
-(b_1^*, \ldots, b_n^*) =
+(b_1^*, \ldots, b_n^*)
+=
 \begin{pmatrix}
-a_1 b_1^* & \ldots & a_1 b_n^* \\
+a_1 b_1^* & \cdots & a_1 b_n^* \\
 \vdots & \ddots & \vdots \\
-a_n b_1^* & \ldots & a_n b_n^*
+a_n b_1^* & \cdots & a_n b_n^*
 \end{pmatrix}
 $$
 
-Cuando los dos estados son iguales, $|\psi\rangle\langle\psi|$, la matriz resultante es el **operador de proyección** y forma la **matriz de densidad** $\rho$ para un estado puro.
+Si $|\psi\rangle = |\phi\rangle$, el operador resultante es un **operador de proyección**.
 
 ---
 
-## **El Operador de Proyección**
-
-Definición matemática:
+## **Operador de Proyección**
 
 $$
 P = |\psi\rangle\langle\psi|
@@ -213,24 +238,26 @@ $$
 
 ## **Modelando la Medición**
 
-Al medir un estado $|\psi\rangle$ respecto a un estado base $|k\rangle$:
+La medición respecto al estado base $|k\rangle$ se describe mediante:
 
 $$
 P_k = |k\rangle\langle k|
 $$
 
+y su acción sobre un estado es:
+
 $$
-P_k|\psi\rangle = \langle k|\psi\rangle |k\rangle
+P_k|\psi\rangle = |k\rangle\langle k|\psi\rangle
 $$
 
 ---
 
-## **Ejemplo Simple: Proyección sobre $|0\rangle$**
+## **Ejemplo: Proyección sobre $|0\rangle$**
 
 $$
-P_0 = |0\rangle\langle 0| = 
-\begin{pmatrix} 1 \\ 0 \end{pmatrix}
-(1, 0) =
+P_0 =
+|0\rangle\langle 0|
+=
 \begin{pmatrix}
 1 & 0 \\
 0 & 0
@@ -240,27 +267,26 @@ $$
 Aplicando $P_0$ a $|\psi\rangle = a|0\rangle + b|1\rangle$:
 
 $$
-P_0|\psi\rangle = \begin{pmatrix} 1 & 0 \\ 0 & 0 \end{pmatrix} \begin{pmatrix} a \\ b \end{pmatrix} = \begin{pmatrix} a \\ 0 \end{pmatrix} = a|0\rangle
+P_0|\psi\rangle =
+\begin{pmatrix}
+a \\ 0
+\end{pmatrix}
+= a|0\rangle
 $$
 
 ---
 
-## **Integración de Ruido: Modelos Formales (Estados Puros vs. Mixtos)**
+## **Estados Puros y Mixtos (Ruido Cuántico)**
 
-- **Matriz de Densidad de Estado Puro:**
-  $$
-  \rho = |\psi\rangle\langle\psi|
-  $$
+- **Estado puro:**
+$$
+\rho = |\psi\rangle\langle\psi|
+$$
 
-- **Matriz de Densidad de Estado Mixto:**
-  $$
-  \rho = \sum_i p_i |\psi_i\rangle\langle\psi_i|
-  $$
+- **Estado mixto:**
+$$
+\rho = \sum_i p_i |\psi_i\rangle\langle\psi_i|
+$$
 
-- **Elementos diagonales:** $\rho_{kk}$ dan las probabilidades de medición.
-- **Elementos fuera de la diagonal:** $\rho_{jk}$, $j \neq k$, representan coherencia (superposición y entrelazamiento).
-
----
-
-¿Quieres que te ayude a convertir algún documento completo o sección específica a este formato? Si tienes ecuaciones concretas que quieras transformar, ¡envíalas y las convierto!
-``
+- Los elementos diagonales $\rho_{kk}$ representan probabilidades.
+- Los elementos fuera de la diagonal representan coherencia cuántica.
