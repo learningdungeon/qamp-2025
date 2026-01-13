@@ -80,13 +80,13 @@ Calcula $|0\rangle \otimes |1\rangle$ y escríbelo como vector columna. ¿Cuál 
 Para un sistema de $n$ estados:
 
 $$
-{|\Psi\rangle = \begin{pmatrix} a_1 \\ \vdots \\ a_n \end{pmatrix}}
+|\Psi\rangle = \begin{pmatrix} a_1 \\ \vdots \\ a_n \end{pmatrix}
 $$
 
 o
 
 $$
-|\Psi\rangle = a_1 |\psi_1\rangle + a_2 |\psi_2\rangle + \ldots + a_n |\psi_n\rangle = \sum_{n} a_n |\psi_n\rangle
+|\Psi\rangle = a_1 |\psi_1\rangle + a_2 |\psi_2\rangle + \ldots + a_n |\psi_n\rangle = \sum_{j=1}^n a_j |\psi_j\rangle
 $$
 
 Por ejemplo, para dos qubits:
@@ -102,13 +102,13 @@ $$
 La notación bra es el conjugado transpuesto del ket:
 
 $$
-\langle\Psi| = (a_1^*, \ldots, a_n^*)
+\langle\Psi| = \begin{pmatrix} a_1^* & \ldots & a_n^* \end{pmatrix}
 $$
 
 o
 
 $$
-\langle\Psi| = a_1^* \langle\psi_1| + a_2^* \langle\psi_2| + \ldots + a_n^* \langle\psi_n| = \sum_{n} a_n^* \langle\psi_n|
+\langle\Psi| = a_1^* \langle\psi_1| + a_2^* \langle\psi_2| + \ldots + a_n^* \langle\psi_n| = \sum_{j=1}^n a_j^* \langle\psi_j|
 $$
 
 ---
@@ -163,7 +163,7 @@ $$
 La normalización es:
 
 $$
-|\gamma\rangle_{\text{normalizado}} = \frac{1}{\sqrt{\sum_n |c_n|^2}} \begin{pmatrix} c_1 \\ \vdots \\ c_n \end{pmatrix}
+|\gamma\rangle_{\text{normalizado}} = \frac{1}{\sqrt{\sum_{j=1}^n |c_j|^2}} \begin{pmatrix} c_1 \\ \vdots \\ c_n \end{pmatrix}
 $$
 
 ---
@@ -183,7 +183,10 @@ $$
 \begin{pmatrix}
 a_1 \\ \vdots \\ a_n
 \end{pmatrix}
-(b_1^*, \ldots, b_n^*) =
+\begin{pmatrix}
+b_1^* & \ldots & b_n^*
+\end{pmatrix}
+=
 \begin{pmatrix}
 a_1 b_1^* & \ldots & a_1 b_n^* \\
 \vdots & \ddots & \vdots \\
@@ -230,7 +233,7 @@ $$
 $$
 P_0 = |0\rangle\langle 0| = 
 \begin{pmatrix} 1 \\ 0 \end{pmatrix}
-(1, 0) =
+\begin{pmatrix} 1 & 0 \end{pmatrix} =
 \begin{pmatrix}
 1 & 0 \\
 0 & 0
@@ -261,6 +264,3 @@ $$
 - **Elementos fuera de la diagonal:** $\rho_{jk}$, $j \neq k$, representan coherencia (superposición y entrelazamiento).
 
 ---
-
-¿Quieres que te ayude a convertir algún documento completo o sección específica a este formato? Si tienes ecuaciones concretas que quieras transformar, ¡envíalas y las convierto!
-``
