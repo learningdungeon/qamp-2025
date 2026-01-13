@@ -179,6 +179,7 @@ Encuentra el estado $|\gamma\rangle$ normalizado.
 El producto externo de dos vectores es:
 
 $$
+
 |\psi\rangle\langle\phi| = 
 \begin{pmatrix}
 a_1 \\ \vdots \\ a_n
@@ -189,6 +190,7 @@ a_1 b_1^* & \ldots & a_1 b_n^* \\
 \vdots & \ddots & \vdots \\
 a_n b_1^* & \ldots & a_n b_n^*
 \end{pmatrix}
+
 $$
 
 Cuando los dos estados son iguales, $|\psi\rangle\langle\psi|$, la matriz resultante es el **operador de proyección** y forma la **matriz de densidad** $\rho$ para un estado puro.
@@ -228,6 +230,7 @@ $$
 ## **Ejemplo Simple: Proyección sobre $|0\rangle$**
 
 $$
+
 P_0 = |0\rangle\langle 0| = 
 \begin{pmatrix} 1 \\ 0 \end{pmatrix}
 (1, 0) =
@@ -235,6 +238,7 @@ P_0 = |0\rangle\langle 0| =
 1 & 0 \\
 0 & 0
 \end{pmatrix}
+
 $$
 
 Aplicando $P_0$ a $|\psi\rangle = a|0\rangle + b|1\rangle$:
