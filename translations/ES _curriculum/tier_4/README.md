@@ -28,3 +28,55 @@ This tier is focused on mastering the theoretical foundations, implementing reso
 
 >**Critical Analysis:**
 > Encourage critical thinking on algorithm limitations, hardware constraints, and the future viability of quantum applications in areas like Material Science and Optimization.
+
+
+# ES **Carpeta tier_4: Enfoque Qiskit Advocate (Investigación y Aplicación Avanzada)**
+
+Esta carpeta contiene todos los materiales del plan de estudios diseñados para el Nivel 4, dirigidos a Qiskit Advocates, investigadores avanzados y personas que buscan carreras en ciencia de la información cuántica.
+
+Este nivel se centra en **dominar los fundamentos teóricos**, implementar algoritmos que requieren muchos recursos y participar en pruebas formales de seguridad y temas de investigación.
+
+---
+
+### 🎯 **Filosofía guía**
+> El enfoque aquí está en el dominio, el análisis crítico y la capacidad de contribuir a proyectos cuánticos avanzados de código abierto.
+
+
+
+### ✅ **Objetivo**
+> Los estudiantes no solo deben entender **cómo usar Qiskit**, sino también **por qué funcionan la física y las matemáticas subyacentes**.  
+> El nivel de complejidad y rigor en este nivel está diseñado para preparar a los usuarios para la **Certificación de Desarrollador Qiskit** y las contribuciones técnicas de alto nivel esperadas dentro de la comunidad Qiskit Advocate.
+
+
+
+### 📚 **Temas clave**
+- Postulados Cuánticos  
+- Teorema de No-Clonación  
+- Formalismo Estabilizador para corrección de errores  
+- Formalismo BB84 y su Prueba de Seguridad (enfocado en criptografía cuántica)  
+
+
+
+### 🔍 **Referencia de origen**
+> Toda la planificación se alinea con la columna **"Tier 4 (Adv. Encryption) Qiskit Advocate Focus"** en la lista maestra **Tiers Focus - Tiers Based Check List** (ubicada en `docs/technical/`).
+
+
+
+## ✨ **Guías de contribución**
+
+#### 🔒 **Rigor a nivel de certificación**
+Todas las explicaciones, derivaciones e implementaciones de código se presentan a un nivel que cumple o supera los requisitos para la **Certificación de Desarrollador Qiskit** y prepara a los usuarios para la profundidad técnica de proyectos avanzados.
+
+#### 📐 **Pruebas rigurosas**
+El contenido incluye y explica pruebas matemáticas formales (por ejemplo, la seguridad de BB84, imposibilidad del Teorema de No-Clonación).
+
+#### ⚙️ **Qiskit avanzado**
+Enfoque en el uso de los módulos de optimización de Qiskit y en abordar desafíos como la implementación de **Corrección de Errores Cuánticos (QEC)**.
+
+#### 🧠 **Análisis crítico**
+Fomentar el pensamiento crítico sobre:
+- Limitaciones de los algoritmos  
+- Restricciones del hardware  
+- Viabilidad futura de aplicaciones cuánticas en áreas como **Ciencia de Materiales** y **Optimización**  
+
+
