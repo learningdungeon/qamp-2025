@@ -22,7 +22,7 @@ This directory holds the core educational material, structured by the four learn
 
 # ES
 # **📘 carpeta curriculum: Desarrollo de Contenido**
-Este directorio contiene el material educativo principal, estructurado por los cuatro niveles de aprendizaje y respaldado por **assets** comunes.  
+Este directorio contiene el material educativo principal, estructurado por los cuatro niveles de aprendizaje y respaldado por **Ayudas Didácticas k+** comunes.  
 
 📁 **Estructura de Carpetas:** El contenido está organizado en cuatro carpetas específicas por nivel y una carpeta central para recursos compartidos:
 
