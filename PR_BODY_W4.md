@@ -7,9 +7,10 @@ Tier-1 Week 4 mini-project: students assemble teleportation with Composer, use a
 - curriculum/tier_1/week_4/lab_composer_steps.md
 - curriculum/tier_1/week_4/worksheet.md
 - curriculum/tier_1/week_4/activities/teleportation_mini_project/README.md
-- tools/week_4/teleport_cards.py   # prints team cards & legend (no extra deps)
+- tools/tier_1/teleportation_cards/teleport_cards.py   # prints team cards & legend (no extra deps)
 
 ## Checklist
 - [ ] Composer steps verified (four-case rule works)
 - [ ] Middle-school language; no matrices/symbols
 - [ ] Screenshot + 3-sentence explanation captured by teams
+

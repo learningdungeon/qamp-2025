@@ -11,7 +11,8 @@
 5) Compartir (5): “qué cambiamos y por qué”. Publica los mejores “Reportes de Señal”.
 
 **Preparación**
-- Ejecuta: `python tools/week_5/signal_set_maker.py` (crea *signal_set/clean.wav* y *signal_set/noisy.wav* más una hoja de trabajo base).
+- Ejecuta: `python tools/tier_1/signal_studio_audio/signal_set_maker.py` (crea *signal_set/clean.wav* y *signal_set/noisy.wav* más una hoja de trabajo base).
 - Si el tiempo es limitado, solo reproduce los dos WAV desde tu dispositivo.
 
 **Lenguaje a usar:** “interferencia”, “limpiar”, “repetir”, “estirar”, “camino más largo”, “comparar conteos”.
+

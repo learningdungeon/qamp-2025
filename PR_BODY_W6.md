@@ -7,9 +7,10 @@ Tier 1 Week 6 introduces a story-based pathfinding game, "Quantum Courier". Stud
 - curriculum/tier_1/week_6/lab_pathfinding_game.md
 - curriculum/tier_1/week_6/worksheet.md
 - curriculum/tier_1/week_6/activities/quantum_courier/README.md
-- tools/week_6/city_map_maker.py
+- tools/tier_1/quantum_courier_maps/city_map_maker.py
 
 ## Checklist
 - [ ] Map boards and Route Idea cards printed for class
 - [ ] Students tested at least three routes and recorded totals
 - [ ] Optional: teacher connected this game to QAOA intuition for upper tiers
+
