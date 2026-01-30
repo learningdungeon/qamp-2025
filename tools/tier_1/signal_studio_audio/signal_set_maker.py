@@ -32,7 +32,7 @@ def main():
     gen_tone(clean, seconds=args.seconds, freq=args.freq, noise=0.0, seed=args.seed)
     gen_tone(noisy, seconds=args.seconds, freq=args.freq, noise=args.noise, seed=args.seed+1)
 
-    with open(os.path.join(args.outdir, "worksheet_stub.txt"), "w") as f:
+    with open(os.path.join(args.outdir, "worksheet_stub.txt"), "w", encoding="utf-8") as f:
         f.write(textwrap.dedent("""\
         Signal Studio — Class Set
         Files: clean.wav, noisy.wav

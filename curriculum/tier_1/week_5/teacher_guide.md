@@ -10,7 +10,8 @@
 5) Share (5): “what we changed & why.” Post best “Signal Reports.”
 
 **Prep**
-- Run: `python tools/week_5/signal_set_maker.py` (creates *signal_set/clean.wav* and *signal_set/noisy.wav* plus a worksheet stub).
+- Run: `python tools/tier_1/signal_studio_audio/signal_set_maker.py` (creates *signal_set/clean.wav* and *signal_set/noisy.wav* plus a worksheet stub).
 - If time is tight, just play the two WAVs from your device.
 
 **Language to use:** “static”, “clean up”, “repeat”, “stretch”, “longer path”, “compare counts”.
+
