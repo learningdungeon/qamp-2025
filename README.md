@@ -29,13 +29,13 @@ This project aims to design an inclusive, tiered curriculum introducing quantum 
 
 ## What is QAMP?
 
-Qiskit Advocate Mentorship Program (QAMP) is a program focused on bring new contributors into Qiskit open source software development where Qiskit advocates work on a 3-month projects under the guidance of mentors. It is an initiative designed to support growth and collaboration within our vibrant community. 
+Qiskit Advocate Mentorship Program (QAMP) is a program focused on bring new contributors into Qiskit open source software development where Qiskit advocates work on a 3-month projects under the guidance of mentors. **It is an initiative within the [Qiskit advocate program](https://www.ibm.com/quantum/qiskit#advocates) designed to support growth and collaboration within our vibrant community.**
 
 Access the QAMP information deck [here]([https://ibm.box.com/v/qamp2025_call](https://github.com/qiskit-advocate/qamp-2025/blob/main/QAMP_call.pdf)).
 
-*Mentees* can expect to learn how to contribute to quantum computing advancement. Participants more experienced in open-source development can hone and develop specialized skills. Mentees must be Qiskit advocates.
+*Mentees* can expect to learn how to contribute to quantum computing advancement. Participants more experienced in open-source development can hone and develop specialized skills. **Mentees must be Qiskit advocates.**
 
-*Mentors* can expect to develop leadership and teamwork skills, while making a significant impact on the next generation of quantum developers and leaders.
+*Mentors* can expect to develop leadership and teamwork skills, while making a significant impact on the next generation of quantum developers and leaders.**Mentors do not have to be Qiskit advocates.**
 
 You can find information about the previous cohorts here:
 - [QAMP Spring 23](https://github.com/qiskit-advocate/qamp-spring-23)
@@ -46,7 +46,7 @@ You can find information about the previous cohorts here:
 
 ## Application
 
-Link to the application form is shared in the the Qiskit Advocate Hub on Discord and the advocate-only spaces in Qiskit Slack.
+Link to the QAMP application form is shared in the the Qiskit Advocate Hub on Discord and the advocate-only spaces in Qiskit Slack.
 
 ## Important dates
 
